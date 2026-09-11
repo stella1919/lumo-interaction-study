@@ -86,7 +86,7 @@ Open the local address shown in the terminal, usually:
 http://localhost:3000
 ```
 
-Camera access works on `localhost) or an HTTPS deployment. The first launch may download the MediaPipe models and WASM runtime from their configured public endpoints, so an internet connection is needed unless the assets are hosted locally.
+Camera access works on `localhost` or an HTTPS deployment. The first launch may download the MediaPipe models and WASM runtime from their configured public endpoints, so an internet connection is needed unless the assets are hosted locally.
 
 For a production build:
 
@@ -115,8 +115,7 @@ npm run start
 - `app/lib/postcard.ts` — vertical postcard generation
 - `app/lib/journey.ts` — four-scene journey-grid generation
 - `app/lib/stateMachine.ts` — interaction state and display copy
-- `lumo-study/conditions/` — reusable interaction-mode definitions
-- `lumo-study/shared/types.ts` — shared event and session types
+- `app/lib/interactionModes.ts` — reusable interaction-mode definitions and shared event types
 
 ## Notes on camera data
 
